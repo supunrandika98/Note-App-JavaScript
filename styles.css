@@ -1,0 +1,127 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/peakpx.jpg');
+}
+
+h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+#add-records{
+    padding: 4% 5%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+     
+}
+#submit-form{
+  border-radius: 45px;
+  box-shadow: 0px 0px 41px -9px rgba(0,0,0,0.69);
+-webkit-box-shadow: 0px 0px 41px -9px rgba(0,0,0,0.69);
+-moz-box-shadow: 0px 0px 41px -9px rgba(0,0,0,0.69);
+  padding: 3%;
+}
+
+#add-records button{
+    margin-top: 6%;
+}
+.addNote {
+  background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED  51%, #56CCF2  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+  display: block;
+  border: none;
+}
+
+.addNote:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.resetNote{
+background-image: linear-gradient(to right, #fc9116 0%, #ec0909  51%, #f19318  100%);
+margin: 10px;
+padding: 15px 45px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;            
+border-radius: 10px;
+display: block;
+border: none;
+}
+.resetNote:hover{
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+}
+
+
+#tablediv {
+    padding: 4% 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+#items th{
+    color: white;
+}
+#items td {
+    padding-top: 5%;
+    color: white;
+}
+#items .note-body{
+    display: none;
+}
+         
+#deletebtn {
+    background-image: linear-gradient(to right, #f7630e 0%, #eb0a0a  51%, #e4152d  100%);
+    padding: 5px 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 6px;
+    display: block;
+    border: none;
+  }
+
+  #deletebtn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+         
+  #viewbtn {
+    background-image: linear-gradient(to right, #b6db2d 0%, #0da121  51%, #d4d42c  100%);
+    padding: 5px 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 6px;
+    display: block;
+    border: none;
+  }
+
+  #viewbtn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+         
+   
